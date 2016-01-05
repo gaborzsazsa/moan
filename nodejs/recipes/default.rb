@@ -7,7 +7,7 @@
 # All rights reserved - Do Not Redistribute
 #
 
-%w{apache2 nodejs}.each do |pgk|
+%w{apache2 nodejs}.each do |pkg|
         package pkg do
         action :upgrade
         end
